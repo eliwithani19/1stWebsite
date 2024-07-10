@@ -505,7 +505,7 @@ nav .fa-regular{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(Mobile.png);
-        width: 200%;
+        width: 150%;
     }
 
     .header-text{
@@ -530,7 +530,7 @@ nav .fa-regular{
         top: 0;
         right: -200px;
         width: 120px;
-        height: 120vh;
+        height: 200vh;
         padding-top: 0px;
         z-index: 2;
         transition: right 0.5s;
@@ -556,7 +556,7 @@ nav .fa-regular{
         text-align: center;
     }
     #About{
-        width: 125%;
+        width: 150%;
         height: max-content;
     }
     .about-col-1{
@@ -568,7 +568,7 @@ nav .fa-regular{
         font-size: 7px;
     }
     #redflags{
-        width: 125%;
+        width: 150%;
         height: max-content;
     }
     .redflag-list{
@@ -581,7 +581,7 @@ nav .fa-regular{
         font-size: 50px;
     }
     #portfolio{
-        width: 125%;
+        width: 150%;
         height: max-content;
     }
     .sub-title{
@@ -593,7 +593,7 @@ nav .fa-regular{
         margin-left: 5%;
     }
     #experience{
-        width: 125%;
+        width: 150%;
         height: max-content;
     }
     .exp img{
@@ -603,7 +603,7 @@ nav .fa-regular{
     }
     #contact{
         flex-basis: 100%;
-        width: 125%;
+        width: 150%;
         height: max-content;
     }
     .sub-title2{
