@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Portfolio - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/50068cd86b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Logo1T.png" class="Logo"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>College Student</p>
+            <h1>I'm <span>Eleazar Flores</span><br>You can call me <span>Ely</span>,<br>from Quezon City.</h1>
+        </div>
+    </div>
+    </div>
+
+    <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"><span>About Me</span></h1>
+                <p>I'm Ely, Let me introduce you myself. I'm currently 4th year student taking Bachelor of Science in Computer Engineering
+                    at Bestlink College of the Philippines. I love sweets that's why I have diabetes. Kidding aside, Welcome to my professional portfolio. 
+                    I am a dedicated and innovative student with a passion for advancing technology and environmental sustainability. 
+                    With a strong background in utilizing Arduino IDE and ESP32, I bring a unique blend of technical skills and creative problem-solving to every project. 
+                    Additionally, my experience in robotics, including the development of remote control cars using various microcontrollers, showcases my ability to design and implement sophisticated technological solutions. 
+                    This portfolio highlights a selection of my work, demonstrating my commitment to excellence and my drive to make a positive impact through cutting-edge solutions and sustainable practices.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links "onclick="opentab('personal information')">Personal Information</p>
+                </div>
+                <div class="tab-contents active-tab1" id="skills">
+                    <ul>
+                        <li><span>Editing</span><br>Adobe Photoshop Basic Editing</li>
+                        <li><span>UI/UX</span><br>Web App Development</li>
+                        <li><span>Editing</span><br>Basic Video/Photo Editing</li>
+                        <li><span>Programming</span><br>Basic Java & C Language Programming</li>
+                        <li><span>Frontend & Backend</span><br>Java Software Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Software Development Project Manager</li>
+                        <li><span>2023</span><br>Attended BITZ 2023 Session 2: Understanding the Innovators’ Role in Digital Information</li>
+                        <li><span>2023</span><br>Attended Techscape Discover: Innovations in the Cool Climes of BSIT</li>
+                        <li><span>2019</span><br>Philippine Robotics Olympiad Division Competitor</li>
+                        <li><span>2018</span><br>Microscope Viewing</li>
+                        <li><span>2011</span><br>Attended RH Herrera Computer on Wheels</li>
+                    </ul>
+                </div>  
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>TERTIARY:</span><br>Bachelor of Science in Computer Engineering<br>Bestlink College of the Philippines<br>(2021 - Present)<br></li>
+                        <li><span>SHS:</span><br>Science & Technology Engineering Mathematics<br>Apolonio Samson National High School<br>(2018 - 2020)</li>
+                        <li><span>SECONDARY:</span><br>Masambong High School<br>(2013 - 2017)</li>
+                        <li><span>PRIMARY:</span><br>Apolonio Samson Elementary School<br>(2005 - 2012)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="personal information">
+                    <ul1>
+                        <li><span>Age</span><br>22 yrs old</li>
+                        <li><span>Gender</span><br>Male</li>
+                        <li><span>Religion</span><br>Roman Catholic</li>
+                        <li><span>Weight</span><br>45 Kg</li>
+                        <li><span>Height</span><br>5'5"</li><br>
+                        <li><span>Address</span><br>24 D Aniceta St. Brgy. Apolonio Samson Kaingin Rd. Balintawak QC.</li><br>
+                        <li><span>Date of Birth</span><br>September 19, 2001</li>
+                        <li><span>Nationality</span><br>Filipino</li>
+                        <li><span>Civil Status</span><br>Single</li><br>
+                        <li><span>Mother's Name</span><br>Elizabeth G. Flores</li>
+                        <li><span>Occupation</span><br>Machine Operator</li>
+                        <li><span>Father's Name</span><br>Edmond A. Flores</li>
+                        <li><span>Occupation</span><br>Carpenter</li>
+                    </ul1>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+   
+
+    <!----portfolio----->
+
+    <div id="portfolio">
+        <div class="pfcontainer">
+            <h1 class="sub-title">My Digital Artworks</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer"></div>
+                    <h3>Gon Freecs Digital Art</h3>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer"></div>
+                    <h3>Digital Portrait Art of Myself</h3>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer"></div>
+                    <h3>Digital Portrait of our Dog Haru</h3>
+                </div>
+                <div class="work">
+                    <img src="ara.png">
+                    <div class="layer"></div>
+                    <h3>Digital Portrait Art of Ms. Arabela Jane Delumen</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="experience">
+        <h1 class="sub-title1">Experiences</h1>
+        <div class="exp-list">
+            <div class="exp">
+                <img src="robotics0.png">
+                <div class="layer1"></div>
+                <h3>Division Robotics Competition Awarding</h3>
+            </div>
+            <div class="exp">
+                <img src="robotics2.png">
+                <div class="layer1"></div>
+                <h3>Division Robotics Competition 3rd Place</h3>
+            </div>
+            <div class="exp">
+                <img src="robotics1.png">
+                <div class="layer1"></div>
+                <h3>Our EV3 Robot</h3>
+            </div>
+
+            <div class="exp">
+                <img src="disecting.png">
+                <div class="layer1"></div>
+                <h3>Frog Disecting</h3>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----Contact---->
+
+    <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">       
+            <h1 class="sub-title2">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>elimetangere09@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>09945944245</p>
+            <div class="social-icons">
+                    <a href="https://facebook.com/elyzzz19"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/3ly_lzr/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.discord.com/lzr_04"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://x.com/elimetangere09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@tmkn_z4r"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="Resume(2024UP).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email Address" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p>Copyright © Ely.</p>
+     </div>
+    </div>
+</div>
+
+<script>                  
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxYrAKw60PoMof5TmVPz5I1zigRvid1kocuFo27ueJb8PyHPgY68vRllR3B8Jpa8_kf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab1");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab1");
+    }
+    </script>
+
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        
+        function closemenu(){
+            sidemeu.style.right = "-240px";
+        }
+
+    </script>
+
+    </body>
+    </html>
